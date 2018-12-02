@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Coding Problems - #3</title>
+</head>
+<body>
+  <h1>Good morning!</h1>
+  <h2>Here's your coding interview problem for today.</h2>
+  <p>This problem was recently asked by <strong>Google</strong>.</p>
+  <p>Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree.</p>
+  <p>For example, given the following Node class</p>
+  <blockquote>class Node:<br />
+  def __init__(self, val, left=None, right=None):<br />
+  self.val = val<br />
+  self.left = left<br />
+  self.right = right</blockquote>
+  <p>The following test should pass:</p>
+
+  <blockquote>node = Node('root', Node('left', Node('left.left')), Node('right'))<br />
+    assert deserialize(serialize(node)).left.left.val == 'left.left'</blockquote>
+  <p>View console to find out more...</p>
+  <script src="problem.js"></script>
+  <script>
+    document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>');
+  </script>
+</body>
+</html>
